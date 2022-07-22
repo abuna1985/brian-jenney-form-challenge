@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brian Denney Form Challenge</title>
+  <link rel="icon" type="image/x-icon" href="form-icon.png">
+  <link rel="stylesheet" href="index.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <h1>My Happy Little Form</h1>
+  <form action="" class="form">
+    <div class="form__row">
+      <label for="first-name" class="form__label--hidden">First name:</label>
+      <input type="text" name="first-name" id="first-name" placeholder="First Name">
+      <label for="last-name" class="form__label--hidden">Last name:</label>
+      <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+    </div>
+    <div class="form__row">
+      <label for="comment" class="form__label--hidden">Comment:</label>
+      <textarea name="comment" id="comment" class="form__textarea"></textarea>
+    </div>
+    <div class="form__row">
+      <label>
+        Subscribe to newsletter
+        <input type="checkbox" name="subscribe" id="subscribe" class="form__checkbox">
+      </label><br>
+      <label for="email" class="form__label--hidden">Email:</label>
+      <input type="text" name="email" id="email" class="form__email" placeholder="Enter your email">
+    </div>
+    <button type="submit" disabled>Submit</button>
+  </form>
+</body>
+</html>

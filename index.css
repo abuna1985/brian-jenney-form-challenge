@@ -1,0 +1,36 @@
+.form__row {
+  margin-bottom: 1.25rem; /* root(16px): 136px */
+}
+
+.form__textarea {
+  height: 2.5rem; /* root(16px): 40px */
+  min-width: 12rem; /* root(16px): 192px */
+  min-height: 2.5rem; /* root(16px): 40px */
+  min-width: 12rem; /* root(16px): 192px */
+}
+
+.form__label--hidden {
+  /* Style labels to not be shown on the page */
+  /* But still available to assistive technology */
+  /* https://www.w3.org/WAI/tutorials/forms/labels/ */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.form__checkbox {
+  /* Styling to vertically align checkbox */
+  /* https://stackoverflow.com/a/719545 */
+  vertical-align: middle;
+  position: relative;
+  bottom: 0.08em;
+}
+
+.form__email {
+  width: 8.5rem; /* root(16px): 136px */
+}
