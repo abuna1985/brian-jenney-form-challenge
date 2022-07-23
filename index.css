@@ -1,11 +1,19 @@
+.form {
+  border: 1px solid #111;
+  margin: 0.625rem; /* root(16px): 10px */
+  min-width: 215px;
+  max-width: 40vw;
+  padding: 0.3125rem 0.625rem 0.625rem; /* root(16px): 5px 10px 10px */
+}
+
 .form__row {
   margin-bottom: 1.25rem; /* root(16px): 136px */
 }
 
 .form__textarea {
   height: 2.5rem; /* root(16px): 40px */
-  min-width: 12rem; /* root(16px): 192px */
   min-height: 2.5rem; /* root(16px): 40px */
+  min-width: 12rem; /* root(16px): 192px */
   min-width: 12rem; /* root(16px): 192px */
 }
 
@@ -26,11 +34,34 @@
 .form__checkbox {
   /* Styling to vertically align checkbox */
   /* https://stackoverflow.com/a/719545 */
-  vertical-align: middle;
-  position: relative;
   bottom: 0.08em;
+  position: relative;
+  vertical-align: middle;
 }
 
 .form__email {
+  display: none;
+  opacity: 0;
   width: 8.5rem; /* root(16px): 136px */
+}
+
+.is-visible {
+  display: block;
+  opacity: 1;
+}
+
+@keyframes anim {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

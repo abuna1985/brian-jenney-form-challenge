@@ -18,3 +18,11 @@
   - [x] Input for an email
   - [x] Submit button
 
+### Step 2
+
+- [x] Disable the submit button initially
+- [x] The button should only be enabled if
+  - [x] First name and last name have at least 1 letter in the text box
+- [x] Hide the input for an email initially
+- [x] The input for email should be displayed if
+  - [x] The checkbox is checked
