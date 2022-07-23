@@ -33,7 +33,7 @@ Some features of note are:
    *  The inputs are kept the same
    *  A error message displays in the console
 
-If you wan more information on the form challenge
+If you want to learn more information about the form challenge, please see the following links:
 * [Article - Brian Denney -The Framework Developer Test: Death by Form](https://typeshare.co/brianjenney/posts/the-framework-developer-test-death-by-form)
 * [Google Docs - Form Challenge Instructions](https://docs.google.com/document/d/1zC4wts9HVIxBVdAdGrbk32-JEAbQh-orMGCMZE3sKAI/edit#heading=h.gwauynib8haa)
 
