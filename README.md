@@ -26,3 +26,16 @@
 - [x] Hide the input for an email initially
 - [x] The input for email should be displayed if
   - [x] The checkbox is checked
+
+### Step 3
+
+- [x] After clicking submit
+  - [x] Make a POST request to https://jsonplaceholder.typicode.com/users
+    - [x] The request object should follow this structure { firstName, lastName, isSubscribed, email, comment }
+    - [x] The email property should only be sent IF they have checked the box to subscribe
+    - [x] If the request is successful
+      - [x] Display a success message that disappears after 2 seconds (e.g. ‘Thanks for your submission <FirstName>’
+      - [x] Clear all form fields
+    - [x] If the request is NOT successful
+      - [x] Display a failure message (e.g. ‘Oops something went wrong’)
+      - [x] Do NOT clear all fields
