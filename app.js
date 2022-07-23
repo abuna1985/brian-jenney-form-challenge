@@ -51,8 +51,7 @@ function init() {
 	}
 
 	/**
-	 * Convert a timestamp into a date
-	 * (c) 2019 Chris Ferdinandi, MIT License, https://gomakethings.com
+	 * run a fetch POST request
 	 * @param   {String}  url  		 the url that the POST is being sent to
 	 * @param   {Object}  formObj  An object that contains the form field data
 	 * @returns {Function}         Return the result from the POST fetch request
@@ -68,7 +67,7 @@ function init() {
 	}
 
 	/**
-	 * Convert a timestamp into a date
+	 * Clear the inputs/checkbox from the happyForm
 	 */
 	function clearFormFields() {
 		firstNameInput.value = '';
