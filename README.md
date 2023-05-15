@@ -1,15 +1,15 @@
 <div id="top"></div>
 <br />
 <div align="center">
-  <a href="https://abuna1985.github.io/brian-denney-form-challenge">
+  <a href="https://abuna1985.github.io/brian-jenney-form-challenge">
     <img src="images/form-96x96.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h2 align="center">Brian Denney No Framework Form Challenge</h3>
+  <h2 align="center">Brian Jenney No Framework Form Challenge</h3>
 
   <p align="center">
     <br />
-    <a href="https://abuna1985.github.io/brian-denney-form-challenge">View Demo</a>
+    <a href="https://abuna1985.github.io/brian-jenney-form-challenge">View Demo</a>
   </p>
 </div>
 
@@ -34,7 +34,7 @@ Some features of note are:
    *  A error message displays in the console
 
 If you want to learn more information about the form challenge, please see the following links:
-* [Article - Brian Denney -The Framework Developer Test: Death by Form](https://typeshare.co/brianjenney/posts/the-framework-developer-test-death-by-form)
+* [Article - Brian Jenney -The Framework Developer Test: Death by Form](https://typeshare.co/brianjenney/posts/the-framework-developer-test-death-by-form)
 * [Google Docs - Form Challenge Instructions](https://docs.google.com/document/d/1zC4wts9HVIxBVdAdGrbk32-JEAbQh-orMGCMZE3sKAI/edit#heading=h.gwauynib8haa)
 
 <a href="#top">back to top</a>
@@ -156,7 +156,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Acknowledgements
 
-* [Article - Brian Denney -The Framework Developer Test: Death by Form](https://typeshare.co/brianjenney/posts/the-framework-developer-test-death-by-form)
+* [Article - Brian Jenney -The Framework Developer Test: Death by Form](https://typeshare.co/brianjenney/posts/the-framework-developer-test-death-by-form)
 * [Google Docs - Form Challenge Instructions](https://docs.google.com/document/d/1zC4wts9HVIxBVdAdGrbk32-JEAbQh-orMGCMZE3sKAI/edit#heading=h.gwauynib8haa)
 * [JSON Placeholder API](https://jsonplaceholder.typicode.com/)
 * [Go Make Things - How to show and hide elements with vanilla JavaScript](https://gomakethings.com/how-to-show-and-hide-elements-with-vanilla-javascript/)
